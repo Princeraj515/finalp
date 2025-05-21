@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alumni Directory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Directory Section */
+.directory {
+  padding: 60px 20px;
+  background: #f0f0f0;
+  text-align: center;
+}
+.directory h2 {
+  margin-bottom: 10px;
+}
+.directory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+.alumni-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.alumni-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.alumni-card h3 {
+  margin-bottom: 5px;
+}
+.alumni-card p {
+  margin: 2px 0;
+  color: #555;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="topnav">
+    <div class="container">
+      <h1 class="logo">College Alumni Network</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="directory.html" class="active">Directory</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Directory Section -->
+  <section class="directory">
+    <div class="container">
+      <h2>Alumni Directory</h2>
+      <p>Explore and connect with our alumni network.</p>
+      <div class="directory-grid">
+        <!-- Sample Alumni Cards -->
+         <div class="alumni-card">
+          <img src="ankit.jpg" alt="Ankit Photo">
+          <h3>Ankit Kumar</h3>
+          <p>Batch: 2023</p>
+          <p>CEO Of TCS</p>
+        </div>
+        <div class="alumni-card">
+          <img src="Ramu.jpg" alt="Ramu Photo">
+          <h3>Ram Krishna Jha</h3>
+          <p>Batch: 2023</p>
+          <p>CEO of Unacademy</p>
+         </div> 
+
+        <div class="alumni-card">
+          <img src="bhaskar.jpg" alt="Bhaskar Photo">
+          <h3>Bhaskar Kumar</h3>
+          <p>Batch: 2023</p>
+          <p>Software Engineer at Microsoft</p>
+        </div>
+        <div class="alumni-card">
+          <img src="prabal.jpg" alt="prabal Photo">
+          <h3>Prabal kumar</h3>
+          <p>Batch: 2023</p>
+          <p>Software Engineer at Google</p>
+        </div>
+          <div class="alumni-card">
+          <img src="vikas.jpg" alt="Vikas Photo">
+          <h3>Vikas Kumar</h3>
+          <p>Batch: 2020</p>
+          <p>Electrical Engineer - Topper of the batch Gold medalist </p>
+          <p>Head Of Electrical department OF India </p>
+         </div> 
+         <div class="alumni-card">
+          <img src="dhanjee.jpg" alt="dhanjee Photo">
+          <h3>Dhanjee thakur</h3>
+          <p>Batch: 2020</p>
+          <p>Member Of Parliament(MP) -Banaras lok Sabha</p>
+         </div> 
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 College Alumni Network. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
